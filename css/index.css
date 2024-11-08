@@ -611,3 +611,35 @@ button {
   width: 22px;
   height: 22px;
 }
+.connection {
+  width: 100%;
+}
+.connection__wrapper {
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  padding-top: 113px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.connection__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #262d47;
+  padding-top: 94px;
+  padding-bottom: 122px;
+  padding-left: 222px;
+  padding-right: 222px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.connection__inner h2 {
+  color: #ffffff;
+  font-family: "Manrope", Sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: center;
+}
