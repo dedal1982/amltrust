@@ -107,6 +107,24 @@ button {
 .promo__text {
   display: flex;
   flex-direction: column;
-  max-width: 720px;
+  gap: 20px;
+  max-width: 688px;
   width: 100%;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Sarabun", Sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+p {
+  color: #ffffff;
+  font-family: "Sarabun", Sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.p span {
+  font-weight: 700;
 }
