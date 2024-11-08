@@ -349,10 +349,9 @@ button {
 .features__inner {
   display: flex;
 }
-.features__text {
+.features__text-box {
   flex-basis: 50%;
   display: flex;
-  flex-direction: column;
 }
 .features__text {
   display: flex;
@@ -360,8 +359,9 @@ button {
   gap: 20px;
   max-width: 435px;
   width: 100%;
+  margin: 56px auto 55px 39px;
 }
-.features__text h2 {
+.features__texth2 {
   color: #262d47;
   font-family: "Sarabun", Sans-serif;
   font-size: 38px;
@@ -380,4 +380,13 @@ button {
   background: #fb434b;
   border-radius: 30px;
   margin-top: 20px;
+}
+.features__image {
+  flex-basis: 50%;
+  display: flex;
+}
+.features__image img {
+  width: 412px;
+  height: 390px;
+  margin: 10px auto;
 }
