@@ -573,8 +573,9 @@ button {
   box-sizing: border-box;
 }
 .our-team__image {
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 50%;
 }
 .our-team__item h3 {
