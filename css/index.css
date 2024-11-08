@@ -242,6 +242,7 @@ button {
 .walbox__item-inner p {
   font-size: 15px;
   font-style: italic;
+  color: #262d4799;
 }
 .item-blue {
   background: #3490fc;
@@ -344,4 +345,39 @@ button {
   font-family: "Manrope", Sans-serif;
   font-size: 15px;
   font-weight: 400;
+}
+.features__inner {
+  display: flex;
+}
+.features__text {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.features__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 435px;
+  width: 100%;
+}
+.features__text h2 {
+  color: #262d47;
+  font-family: "Sarabun", Sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+}
+.features__text p {
+  color: #262d4799;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.features-wallet {
+  width: 190px;
+  height: 54px;
+  background: #fb434b;
+  border-radius: 30px;
+  margin-top: 20px;
 }
