@@ -380,6 +380,11 @@ button {
   background: #fb434b;
   border-radius: 30px;
   margin-top: 20px;
+  border: 1px solid #fb434b;
+  transition: all 0.2s ease-in-out;
+}
+.features-wallet:hover {
+  border: 1px solid #fff;
 }
 .features__image {
   flex-basis: 50%;
@@ -489,7 +494,10 @@ button {
   width: 100%;
   background: #e1eeff;
   display: flex;
+  align-items: center;
+  gap: 31px;
   padding: 35px 45px 45px 32px;
+  box-sizing: border-box;
 }
 .faq__question-text {
   display: flex;
@@ -511,4 +519,19 @@ button {
   font-weight: 400;
   font-style: italic;
   line-height: 20px;
+}
+.question-wallet {
+  width: 204px;
+  height: 54px;
+  border-radius: 30px;
+  background-color: #3490fc;
+  font-family: "Sarabun", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  fill: #ffffff;
+  border: 1px solid #3490fc;
+  transition: all 0.2s ease-in-out;
+}
+.question-wallet:hover {
+  border: 1px solid #fff;
 }
