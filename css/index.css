@@ -91,3 +91,22 @@ button {
   width: 137px;
   height: 52px;
 }
+.promo {
+  width: 100%;
+  background: #262d47;
+}
+.promo__wrapper {
+  max-width: 1414px;
+  padding-bottom: 60px;
+  padding-top: 130px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.promo__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  width: 100%;
+}
