@@ -553,3 +553,11 @@ button {
   font-size: 38px;
   font-weight: 500;
 }
+.our-team__inner {
+  width: 100%;
+  padding: 10px 58px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  gap: 20px;
+}
