@@ -101,13 +101,16 @@ button {
   background: #262d47;
 }
 .promo__wrapper {
-  max-width: 1414px;
+  max-width: 1444px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 60px;
   padding-top: 130px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   margin: 0 auto;
+  gap: 100px;
 }
 .promo__text {
   display: flex;
@@ -159,4 +162,8 @@ p {
 }
 .dashboard-wallet:hover {
   border: 1px solid #fff;
+}
+.promo__image {
+  width: 508px;
+  height: 473px;
 }
