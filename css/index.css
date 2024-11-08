@@ -223,4 +223,42 @@ button {
   height: 346px;
   border-radius: 50%;
   border: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+.walbox__item-inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.walbox__item-inner h5 {
+  color: #3490fc;
+  font-family: "Manrope", Sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+}
+.walbox__item-inner p {
+  font-size: 15px;
+  font-style: italic;
+}
+.item-blue {
+  background: #3490fc;
+}
+.item-blue h5 {
+  color: #ffffff;
+  font-family: "Manrope", Sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+}
+.check-free {
+  display: flex;
+}
+.check-free__wrapper {
+  max-width: 1150px;
+  width: 100%;
+  margin: 113px auto 0;
+  background: #262d47;
+  display: flex;
 }
