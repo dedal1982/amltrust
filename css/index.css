@@ -410,3 +410,8 @@ button {
   font-size: 38px;
   font-weight: 500;
 }
+.choice__gride {
+  display: grid;
+  grid-template-columns: repeat(4, minmax, auto);
+  gap: 20px;
+}
