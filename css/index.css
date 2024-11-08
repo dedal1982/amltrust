@@ -258,7 +258,7 @@ button {
 .check-free__wrapper {
   max-width: 1150px;
   width: 100%;
-  margin: 113px auto 0;
+  margin: 115px auto 0;
   background: #262d47;
   display: flex;
   border-radius: 24px;
@@ -306,7 +306,7 @@ button {
 .statistics__wrapper {
   max-width: 1140px;
   width: 100%;
-  padding-top: 113px;
+  padding-top: 115px;
   padding-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -321,11 +321,15 @@ button {
   font-weight: 400;
   line-height: 50px;
 }
+.statistics__wrapper p span {
+  font-weight: 700;
+  color: rgb(52, 144, 252);
+}
 .features {
   width: 100%;
 }
 .features__wrapper {
-  padding-top: 113px;
+  padding-top: 115px;
   box-sizing: border-box;
   max-width: 1140px;
   width: 100%;
@@ -333,4 +337,11 @@ button {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+.features__wrapper span {
+  text-align: center;
+  color: #262d4799;
+  font-family: "Manrope", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
