@@ -261,6 +261,7 @@ button {
   margin: 113px auto 0;
   background: #262d47;
   display: flex;
+  border-radius: 24px;
 }
 .check-free__text {
   flex-basis: 50%;
@@ -287,4 +288,36 @@ button {
   height: 54px;
   border-radius: 30px;
   margin-top: 30px;
+}
+.check-free__image-box {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.check-free__image {
+  display: block;
+  width: 213px;
+  height: 253px;
+  margin: 50px auto 50px 113px;
+}
+.statistics {
+  width: 100%;
+  display: flex;
+}
+.statistics__wrapper {
+  width: 1140px;
+  padding-top: 113px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.statistics__wrapper p {
+  text-align: center;
+  color: #262d47;
+  font-family: "Manrope", Sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 50px;
 }
