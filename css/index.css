@@ -213,8 +213,14 @@ button {
 .walbox__wrapper {
   display: flex;
   align-items: center;
-  justify-self: center;
+  justify-content: center;
   gap: 50px;
   padding-top: 113px;
   box-sizing: border-box;
+}
+.walbox__item {
+  width: 346px;
+  height: 346px;
+  border-radius: 50%;
+  border: 1px solid #eeeeee;
 }
