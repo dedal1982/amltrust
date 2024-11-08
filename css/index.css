@@ -59,7 +59,7 @@ button {
 .header__nav {
   display: flex;
   align-items: center;
-  gap: 44px;
+  gap: 60px;
 }
 .header__nav img {
   width: 160px;
@@ -164,9 +164,10 @@ button {
   max-width: 1260px;
   width: 100%;
   padding-top: 107px;
-  padding-bottom: 115px;
   box-sizing: border-box;
   display: flex;
+  align-items: center;
+  gap: 200px;
   margin: 0 auto;
 }
 .doing__text {
@@ -201,4 +202,19 @@ button {
   height: 54px;
   border-radius: 30px;
   margin-top: 20px;
+}
+.doing__image {
+  width: 486px;
+  height: 486px;
+}
+.walbox {
+  width: 100%;
+}
+.walbox__wrapper {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 50px;
+  padding-top: 113px;
+  box-sizing: border-box;
 }
