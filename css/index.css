@@ -561,3 +561,14 @@ button {
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   gap: 20px;
 }
+.our-team__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #eff2fc;
+  border-radius: 8px;
+  padding: 40px 40px 8px 40px;
+  box-sizing: border-box;
+}
