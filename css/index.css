@@ -302,10 +302,10 @@ button {
 }
 .statistics {
   width: 100%;
-  display: flex;
 }
 .statistics__wrapper {
-  width: 1140px;
+  max-width: 1140px;
+  width: 100%;
   padding-top: 113px;
   padding-bottom: 60px;
   padding-left: 40px;
@@ -320,4 +320,17 @@ button {
   font-size: 37px;
   font-weight: 400;
   line-height: 50px;
+}
+.features {
+  width: 100%;
+}
+.features__wrapper {
+  padding-top: 113px;
+  box-sizing: border-box;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
