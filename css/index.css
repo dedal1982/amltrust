@@ -464,6 +464,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 10px auto;
 }
 .faq__item {
   width: 100%;
