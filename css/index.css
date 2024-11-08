@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url(../fonts/fonts.css);
 * {
@@ -119,21 +120,21 @@ button {
   max-width: 688px;
   width: 100%;
 }
-h1 {
+.promo h1 {
   color: #ffffff;
   font-family: "Sarabun", Sans-serif;
   font-size: 42px;
   font-weight: 400;
   letter-spacing: 1px;
 }
-p {
+.promo p {
   color: #ffffff;
   font-family: "Sarabun", Sans-serif;
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
 }
-.p span {
+.promo .p span {
   font-weight: 700;
 }
 .promo__item-btns {
@@ -152,18 +153,38 @@ p {
 .promo-wallet:hover {
   border: 1px solid #fff;
 }
-.dashboard-wallet {
-  width: 189px;
-  height: 54px;
-  border-radius: 30px;
-  background: transparent;
-  border: 1px solid #ffffff26;
-  transition: all 0.2s ease-in-out;
-}
-.dashboard-wallet:hover {
-  border: 1px solid #fff;
-}
 .promo__image {
   width: 508px;
   height: 473px;
+}
+.doing {
+  width: 100%;
+}
+.doing__wrapper {
+  max-width: 1260px;
+  width: 100%;
+  padding-top: 107px;
+  padding-bottom: 115px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 auto;
+}
+.doing__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 480px;
+  width: 100%;
+}
+.doing h2 {
+  color: #262d47;
+  font-size: 38px;
+  font-weight: 500;
+}
+.doing p {
+  color: #262d4799;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
