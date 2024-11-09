@@ -303,7 +303,20 @@ button {
   justify-content: center;
   gap: 50px;
   padding-top: 113px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+  .walbox__wrapper {
+    padding-top: 80px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .walbox__wrapper {
+    flex-direction: column;
+  }
 }
 .walbox__item {
   width: 346px;
@@ -314,6 +327,24 @@ button {
   align-items: center;
   justify-content: center;
   padding-left: 20px;
+}
+@media screen and (max-width: 1280px) {
+  .walbox__item {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .walbox__item {
+    width: 230px;
+    height: 230px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .walbox__item {
+    width: 100%;
+    height: 250px;
+  }
 }
 .walbox__item-inner {
   display: flex;
