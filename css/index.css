@@ -466,6 +466,11 @@ button {
   box-sizing: border-box;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .statistics__wrapper {
+    padding: 50px 0 50px 0;
+  }
+}
 .statistics__wrapper p {
   text-align: center;
   color: #262d47;
