@@ -886,6 +886,11 @@ button {
   box-sizing: border-box;
   border-radius: 20px;
 }
+@media screen and (max-width: 767px) {
+  .connection__inner {
+    padding: 0;
+  }
+}
 .connection__inner h2 {
   color: #ffffff;
   font-family: "Manrope", Sans-serif;
@@ -907,6 +912,20 @@ button {
   justify-content: center;
   gap: 20px;
 }
+@media screen and (max-width: 960px) {
+  .connection__form {
+    flex-direction: column;
+    height: fit-content;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .connection__form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 .connection__form input {
   width: 476px;
   height: 37px;
@@ -914,6 +933,11 @@ button {
   border: 1px solid #ababab;
   padding: 12px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 960px) {
+  .connection__form input {
+    width: 100%;
+  }
 }
 .connection__form input:focus {
   outline: none;
@@ -933,6 +957,11 @@ button {
   font-size: 16px;
   line-height: 1;
   transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width: 960px) {
+  .connection__form button {
+    width: 100%;
+  }
 }
 .connection__form button:hover {
   color: #000;
