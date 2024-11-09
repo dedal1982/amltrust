@@ -56,6 +56,12 @@ button {
   padding-right: 20px;
   box-sizing: border-box;
 }
+@media screen and (max-width: 768px) {
+  .header__wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .header__nav {
   display: flex;
   align-items: center;
@@ -87,10 +93,23 @@ button {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 1024px) {
+  .p-button {
+    font-size: 14px;
+  }
+}
 .connect-wallet {
   border-radius: 5px;
   width: 137px;
   height: 52px;
+}
+@media screen and (max-width: 1024px) {
+  .connect-wallet {
+    margin-right: 20px;
+    margin-left: auto;
+    width: 127px;
+    height: 50px;
+  }
 }
 .promo-wallet {
   width: 194px;
@@ -685,4 +704,76 @@ button {
 }
 .connection__form button:hover {
   color: #000;
+}
+/*---адаптив---*/
+.header__burger {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__burger:before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__burger:after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__burger span {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__burger.active span {
+    transform: scale(0);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__list {
+    display: none;
+  }
 }
