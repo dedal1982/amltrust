@@ -132,12 +132,27 @@ button {
   margin: 0 auto;
   gap: 100px;
 }
+@media screen and (max-width: 1024px) {
+  .promo__wrapper {
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+}
 .promo__text {
   display: flex;
   flex-direction: column;
   gap: 20px;
   max-width: 688px;
   width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .promo__text {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
 }
 .promo h1 {
   color: #ffffff;
@@ -153,14 +168,24 @@ button {
   line-height: 30px;
   font-weight: 400;
 }
-.promo .p span {
+.promo p span {
   font-weight: 700;
+}
+@media screen and (max-width: 1024px) {
+  .promo p span {
+    display: none;
+  }
 }
 .promo__item-btns {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-top: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .promo__item-btns {
+    margin-top: 0;
+  }
 }
 .promo-wallet {
   width: 194px;
@@ -175,6 +200,12 @@ button {
 .promo__image {
   width: 508px;
   height: 473px;
+}
+@media screen and (max-width: 767px) {
+  .promo__image {
+    width: 335px;
+    height: 312px;
+  }
 }
 .doing {
   width: 100%;
