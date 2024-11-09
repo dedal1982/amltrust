@@ -222,10 +222,21 @@ button {
   gap: 200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1024px) {
+  .doing__wrapper {
+    padding-top: 50px;
+  }
+}
 @media screen and (max-width: 960px) {
   .doing__wrapper {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .doing__wrapper {
+    padding-top: 20px;
   }
 }
 .doing__text {
@@ -276,7 +287,12 @@ button {
   max-width: 486px;
   max-height: 486px;
 }
-
+@media screen and (max-width: 600px) {
+  .doing__image {
+    max-width: 335px;
+    max-height: 335px;
+  }
+}
 .walbox {
   width: 100%;
 }
