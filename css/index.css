@@ -214,11 +214,19 @@ button {
   max-width: 1260px;
   width: 100%;
   padding-top: 107px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   gap: 200px;
   margin: 0 auto;
+}
+@media screen and (max-width: 960px) {
+  .doing__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .doing__text {
   display: flex;
@@ -226,6 +234,12 @@ button {
   gap: 20px;
   max-width: 480px;
   width: 100%;
+}
+@media screen and (max-width: 960px) {
+  .doing__text {
+    max-width: 100%;
+    align-items: center;
+  }
 }
 .doing h2 {
   color: #262d47;
@@ -247,6 +261,11 @@ button {
   line-height: 20px;
   margin-top: 20px;
 }
+@media screen and (max-width: 960px) {
+  .doing h3 {
+    align-self: flex-start;
+  }
+}
 .doing-wallet {
   width: 225px;
   height: 54px;
@@ -254,12 +273,14 @@ button {
   margin-top: 20px;
 }
 .doing__image {
-  width: 486px;
-  height: 486px;
+  max-width: 486px;
+  max-height: 486px;
 }
+
 .walbox {
   width: 100%;
 }
+
 .walbox__wrapper {
   display: flex;
   align-items: center;
