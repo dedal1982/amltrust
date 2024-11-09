@@ -667,8 +667,15 @@ button {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   margin: 0 auto;
+}
+.faq__wrapper h2 {
+  color: #262d47;
+  font-family: "Manrope", Sans-serif;
+  font-size: 38px;
+  font-weight: 500;
 }
 .faq__inner {
   width: 100%;
@@ -704,6 +711,12 @@ button {
   gap: 31px;
   padding: 35px 45px 45px 32px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .faq__question {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .faq__question-text {
   display: flex;
